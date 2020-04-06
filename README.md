@@ -30,4 +30,19 @@ npm i mocha --save-dev
 npm i should --save-dev
 npm i supertest --save-dev
 ```
-테스트 코드 #1
+# 4.예제
+<pre>
+╰api
+ ╰user
+</pre>
+
+```bash
+  성공시
+    ✓ id 숫자
+GET /users 200 3.255 ms - 8
+
+
+  1 passing (31ms)
+```
+
+
