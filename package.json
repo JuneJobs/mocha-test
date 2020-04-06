@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/JuneJobs/mocha-test/issues"
   },
-  "homepage": "https://github.com/JuneJobs/mocha-test#readme"
+  "homepage": "https://github.com/JuneJobs/mocha-test#readme",
+  "devDependencies": {
+    "mocha": "^7.1.1",
+    "should": "^13.2.3",
+    "supertest": "^4.0.2"
+  }
 }
