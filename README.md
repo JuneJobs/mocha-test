@@ -14,6 +14,14 @@
 컨트롤러로써 실제 동작하는 소스코드가 담긴 파일
 ## 2.3. ~.spec.js 
 테스트 실행 코드를 저장하는 파일. specification(명세, 요구사항)의 약어
+## 2.4 디렉토리 구성 샘플
+<pre>
+╰api
+ ╰user
+  ╰ index.js
+  ╰ user.ctrl.js
+  ╰ user.spec.js
+</pre>
 
 # 3.설치사항
 ## 3.1. 설치 명령어

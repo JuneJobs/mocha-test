@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "NODE_ENV=test mocha api/user/user.spec.js"
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,9 @@
     "mocha": "^7.1.1",
     "should": "^13.2.3",
     "supertest": "^4.0.2"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "morgan": "^1.10.0"
   }
 }
